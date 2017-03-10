@@ -1,0 +1,17 @@
+<div class="usa-grid" id="staff-member-carousel">
+
+  {% for member in site.staff_bios %}
+
+  <div class="staffer">
+    <img src="{{ site.baseurl }}/img/staff/{{ member.photo_filename }}" alt="Portrait of {{ member.name }}" />
+    <h3>{{ member.name }}</h3>
+    <h4>{{ member.discipline }}</h4>
+    <h5>Previously: <span class="company">{{ member.previous }}</span></h5>
+    <p>
+      {{ member.bio }}
+    </p>
+  </div>
+
+  {% endfor %}
+
+</div>

@@ -1,9 +1,9 @@
 ---
-title: Improving the Permitting Experience
-project_link: http://pages.austintexas.io/projects/permitting/
-link_text: Learn more
-image_url: /img/work/vets-vets.org.png
-image_description: The logo for vets.gov
----
+name: Julia Byron
+discipline: User Research
+previous: IBM
+bio: |
+  I want to work on tough challenges in society. As the body responsible for all of society’s wellbeing, the government has the greatest influence on improving people's’ lives, but also in creating headaches and barriers. I want to improve systems to help our community get the most out of government and help the government better serve the people.
 
-We're working with Development Services and other City departments to illustrate the permitting experience from a user’s perspective and identify how technology can help us meet increasing demands. 
+
+---
