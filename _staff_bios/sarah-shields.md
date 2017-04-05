@@ -1,10 +1,9 @@
 ---
 name: Sarah Shields
-discipline: Program Manager
-previous: Under Armour
+discipline: Program Management
+previous: Under Armour Connected Fitness
 bio: |
-  I was interested in becoming a DTI Fellow because I thought it would be exciting to be able to contribute to change in my community.  I live in south Austin, where I have two dogs and a front yard garden. I am an active volunteer for The Seedling Foundation and Austin Regional Science Festival.
-
-
+  I joined the DT&I Fellowship because I wanted to be able to contribute to change in my community.  I was most recently working as a program manager at Under Armour Connected Fitness, managing the sales engineering team and producing over 50 products annually. I have over 10 years of experience working in digital in NYC and Austin.  
+photo_filename: sarah-shields.jpg
 
 ---

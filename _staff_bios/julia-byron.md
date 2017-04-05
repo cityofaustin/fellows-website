@@ -4,6 +4,6 @@ discipline: User Research
 previous: IBM
 bio: |
   I want to work on tough challenges in society. As the body responsible for all of society’s wellbeing, the government has the greatest influence on improving people's’ lives, but also in creating headaches and barriers. I want to improve systems to help our community get the most out of government and help the government better serve the people.
-
+photo_filename: julia-byron.jpg
 
 ---
