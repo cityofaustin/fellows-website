@@ -85,7 +85,6 @@ $( document ).ready(function() {
         $(this).addClass('collapsed');
         $('.mobile-nav').addClass('collapsed');
       }
-
     });
 
     //
@@ -125,17 +124,6 @@ $( document ).ready(function() {
       var hash = window.location.hash.substr(1);
       swapAnswer(hash);
     }
-
-
-
-
-    $('.join-page .faqs a').on('click', function(event) {
-      event.stopPropagation(); // prevent bubbling
-
-      var hash = this.hash.substr(1);
-      swapAnswer(hash);
-    });
-
 
     // Catch all outgoing liks that are not to .gov, .mil, facebook.com, github.com, or twitter.com
     // and display a "you are now leaving..." message
