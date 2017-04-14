@@ -1,36 +1,36 @@
-// $('#staff-member-carousel').slick({
-//   infinite: false,
-//   useTransform: true,
-//   slidesToShow: 3,
-//   slidesToScroll: 3,
-//   cssEase: 'ease-in-out',
-//   responsive: [
-//     {
-//       breakpoint: 1024,
-//       settings: {
-//         slidesToShow: 3,
-//         slidesToScroll: 3,
-//         infinite: true,
-//         dots: true
-//       }
-//     },
-//     {
-//       breakpoint: 600,
-//       settings: {
-//         slidesToShow: 2,
-//         slidesToScroll: 2
-//       }
-//     },
-//     {
-//       breakpoint: 480,
-//       settings: {
-//         slidesToShow: 1,
-//         slidesToScroll: 1
-//       }
-//     }
-// ]
-// });
-//
+$('#staff-member-carousel').slick({
+  infinite: false,
+  useTransform: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  cssEase: 'ease-in-out',
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+]
+});
+
 
 var header = $('#fixed-header');
 var headerCollapsed = false;
