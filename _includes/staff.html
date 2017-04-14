@@ -1,8 +1,14 @@
-<div class="usa-grid" id="staff-member-carousel">
+  {% unless include.staffer_limit %}
+    {% assign staffer_limit = '1000' %}
+  {% else %}
+    {% assign staffer_limit = include.staffer_limit %}
+  {% endunless %}
 
-  {% for member in site.staff_bios %}
+  {% for member in site.staff_bios limit: staffer_limit %}
 
-  <div class="staffer">
+  {% cycle '<div class="usa-grid">', '', '' %}
+
+  <div class="staffer usa-width-one-third">
     <img src="{{ site.baseurl }}/img/staff/{{ member.photo_filename }}" alt="Portrait of {{ member.name }}" />
 
     <h3>{{ member.name }}</h3>
@@ -17,9 +23,13 @@
     <p>
       {{ member.bio }}
     </p>
-    
+
   </div>
 
-  {% endfor %}
+  {% if forloop.last %}
+    </div>
+  {% else %}
+    {% cycle '', '', '</div>' %}
+  {% endif %}
 
-</div>
+  {% endfor %}

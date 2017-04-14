@@ -1,36 +1,36 @@
-$('#staff-member-carousel').slick({
-  infinite: false,
-  useTransform: true,
-  slidesToShow: 3,
-  slidesToScroll: 3,
-  cssEase: 'ease-in-out',
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-]
-});
-
+// $('#staff-member-carousel').slick({
+//   infinite: false,
+//   useTransform: true,
+//   slidesToShow: 3,
+//   slidesToScroll: 3,
+//   cssEase: 'ease-in-out',
+//   responsive: [
+//     {
+//       breakpoint: 1024,
+//       settings: {
+//         slidesToShow: 3,
+//         slidesToScroll: 3,
+//         infinite: true,
+//         dots: true
+//       }
+//     },
+//     {
+//       breakpoint: 600,
+//       settings: {
+//         slidesToShow: 2,
+//         slidesToScroll: 2
+//       }
+//     },
+//     {
+//       breakpoint: 480,
+//       settings: {
+//         slidesToShow: 1,
+//         slidesToScroll: 1
+//       }
+//     }
+// ]
+// });
+//
 
 var header = $('#fixed-header');
 var headerCollapsed = false;
@@ -49,7 +49,7 @@ $( document ).ready(function() {
         headerCollapsed = false;
       }
     });
-    
+
     //
     // Show a full-screen width background behind the second level navigation
     // If anyone has a better idea how to do this cleaner/using only CSS, ideas
@@ -71,7 +71,7 @@ $( document ).ready(function() {
       if(!activeSubNav.length)
         subMenuBackground.hide();
     })
-    
+
     //
     // Support for mobile hamburger nav
     //
@@ -85,9 +85,9 @@ $( document ).ready(function() {
         $(this).addClass('collapsed');
         $('.mobile-nav').addClass('collapsed');
       }
-      
+
     });
-    
+
     //
     // Handle all section show/hide behavior on join page
     //
@@ -125,7 +125,7 @@ $( document ).ready(function() {
       var hash = window.location.hash.substr(1);
       swapAnswer(hash);
     }
-   
+
 
 
 
@@ -135,11 +135,11 @@ $( document ).ready(function() {
       var hash = this.hash.substr(1);
       swapAnswer(hash);
     });
-    
-    
+
+
     // Catch all outgoing liks that are not to .gov, .mil, facebook.com, github.com, or twitter.com
     // and display a "you are now leaving..." message
-    
+
     // $( 'a[href^="http"]:not(.target-link)' ).on( "click", function() {
     //   var domain = this.href.split('/')[2];
     //   var tld = domain.substring(domain.length - 3);
@@ -156,8 +156,8 @@ $( document ).ready(function() {
     //   $( '#site-alert-overlay' ).hide();
     //   $( '#site-alert' ).hide();
     // });
-    
-    
+
+
     // $('.everything-is-awesome').on( "click", function() {
     //   // Yes, there were more important things to get done, but everyone needs a mental break sometimes
     //   if (awesomeCounter >= 10) {
@@ -167,6 +167,6 @@ $( document ).ready(function() {
     //   // Not yet awesome
     //   awesomeCounter++;
     // });
-    
-    
+
+
 });
