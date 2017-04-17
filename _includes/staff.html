@@ -1,5 +1,5 @@
   {% unless include.staffer_limit %}
-    {% assign staffer_limit = '1000' %}
+    {% assign staffer_limit = null %}
   {% else %}
     {% assign staffer_limit = include.staffer_limit %}
   {% endunless %}
