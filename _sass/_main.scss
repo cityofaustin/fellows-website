@@ -104,7 +104,7 @@ body {
             padding-bottom: 3px;
             border-bottom: 5px $background-color-secondary solid;
           }
-          
+
           & > ul {
             visibility: hidden;
             // off by one pixel so we don't obscure
@@ -217,7 +217,7 @@ body {
               }
             }
           }
-        
+
           #submenu-background {
             @include css3-prefix('transition', 'bottom 100ms linear');
             bottom: ( $fixed-header-height-desktop - $fixed-header-height-desktop-collapsed );
@@ -481,7 +481,7 @@ body {
         border-color: #205593;
       }
     }
-    // Paragraphs that are within the 
+    // Paragraphs that are within the
     .usa-width-one-whole > p {
       margin: 1em auto;
     }
@@ -569,6 +569,8 @@ body {
       display: block;
       padding: 0 20px;
       font-size: .85em;
+      margin-top: 40px;
+      margin-bottom: 40px;
       img {
         border-radius: 50%;
         max-width: 200px;
@@ -637,8 +639,8 @@ body {
       padding: 0;
     }
   } // </section.site-album>
-  
-  
+
+
   ul.featured {
     font-size: 0.8em;
     text-align: left;
@@ -858,11 +860,11 @@ body {
 }
 
 .slick-slider button.slick-prev:before{
-  content: url('/img/arrow_left.png');
+  content: url('../img/arrow_left.png');
 }
 
 .slick-slider button.slick-next:before{
-  content: url('/img/arrow_right.png');
+  content: url('../img/arrow_right.png');
 }
 @media (max-width: $screen-xs-max) {
   .slick-slider button.slick-prev:before,
@@ -875,4 +877,3 @@ body {
   font-size: 30px;
   color: #bbb;
 }
-
