@@ -1,7 +1,7 @@
 ---
 job_title: Project Manager
 is_fellow: true
-lever_link: https://jobs.lever.co/austintexas/fa69d49c-df8c-495e-90f9-493f3f17f7b6
+lever_link: https://jobs.lever.co/austintexas/fa69d49c-df8c-495e-90f9-493f3f17f7b6/apply
 list_order: 0
 
 ---

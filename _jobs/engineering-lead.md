@@ -1,7 +1,7 @@
 ---
 job_title: Engineering Practices Lead
 is_fellow: true
-lever_link: https://jobs.lever.co/austintexas/444a8926-e628-44d7-a240-49c8df16dbf9
+lever_link: https://jobs.lever.co/austintexas/444a8926-e628-44d7-a240-49c8df16dbf9/apply
 list_order: 10
 
 ---
