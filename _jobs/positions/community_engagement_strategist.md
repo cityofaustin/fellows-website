@@ -14,6 +14,8 @@ This opening is for a full-time position with the City of Austin Innovation Offi
 
 **Note**: A technology background is not required – the best candidate will have the ability to synthesize these complex topics for residents, community organizations, and City leadership. 
 
+**Applications close January 31, 2018.**
+
 ## Salary		
 
 $56,867 - $82,659  commensurate with experience
