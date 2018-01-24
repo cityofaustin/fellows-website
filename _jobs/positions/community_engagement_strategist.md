@@ -1,15 +1,20 @@
 ---
-title: Content Strategist		
-is_fellow: true
-lever_link: https://jobs.lever.co/austintexas/a57be492-9bf3-41f3-a329-2751fea9256b/apply
-position: 6
-lede_markdown: We’re looking for a senior content strategist to serve on multidisciplinary project teams with career civil servants, actively demonstrating the value of iterative development and user-centered design.
+title: Community Engagement Strategist
+is_fellow: false
+lever_link: https://www.austincityjobs.org/postings/64411 
+position: 10
+lede_markdown: We’re looking for an experienced writer, speaker, and communicator to design and execute messaging strategies, create and advise on content strategy, and foster partnerships as a City ambassador. 
 
 ---
 ## Overview
-Our teams are working to improve a wide range of city services, including researching and redesigning our [permitting processes](http://www.austintexas.gov/department/development-services), prototyping ways to change behaviors around [recycling and composting](http://www.austintexas.gov/department/austin-resource-recovery), building the next generation of [ATXFloods](https://www.atxfloods.com), , improving services for people experiencing homelessness, and creating city-wide standards for interface design, user research, and content strategy.		
 
-You’ll also serve as an expert and educator in your discipline, establishing new practices that can work across departments and providing guidance and training for other fellows and city staff.		
+The City of Austin's Innovation Office helps diverse and inclusive teams examine challenges and opportunities to surface better ideas and solutions that make a lasting, positive impact. We work with internal and external partners to develop, test, organize, and encourage innovative projects with the goal of fostering a culture of learning and experimentation within the City of Austin.
+
+This opening is for a full-time position with the City of Austin Innovation Office. This role is not a Design, Technology, and Innovation Fellowship, though the person selected will work with Fellows and other City colleagues on a regular basis. Applications are sumbmitted through the City of Austin's job portal ([more information and application here](https://www.austincityjobs.org/postings/64411)). 
+
+**Note**: A technology background is not required – the best candidate will have the ability to synthesize these complex topics for residents, community organizations, and City leadership. 
+
+LEFT OFF HERE
 
 ## Salary		
 
