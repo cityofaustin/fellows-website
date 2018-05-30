@@ -10,8 +10,7 @@ layout: default
           <div class="col-xs"><h2>{{ page.secondary_headline }}</h2></div>
         </div>
         <div class="row">
-          <div class="col-lg lede">{{ page.secondary_lede_markdown | markdownify | trim }}</div>
-          <h2>{{ page.secondary_paragraph_markdown | markdownify | trim }}</h2>
+          <div class="col-lg lede">{{ page.secondary_lede_markdown | markdownify | trim }}<br/>{{ page.secondary_paragraph_markdown | markdownify | trim }}</div>
         </div>
         {% if page.secondary_section_buttons %}
         <div class="row">
