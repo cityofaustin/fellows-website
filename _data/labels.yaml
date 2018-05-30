@@ -12,7 +12,7 @@ footer_button_text: Join us
 footer_button_path: /join
 footer_credits: Office of Innovation • Communications & Technology Management
 site_nav:
-  - label: Home
+  - label:  '  '
     path: /
   # - label: About Us
   #   path: /about/
