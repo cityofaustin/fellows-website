@@ -32,10 +32,15 @@ layout: default
           </div>
           {% endfor %}
         </div>
+        <div class="row center-xs">
+          <div class="col-xs-12 col-lg-8">Additional content here</div>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+
 
 
 {% assign staff = site.people | where: "role", "staff" | sort: "start_date"  %}
