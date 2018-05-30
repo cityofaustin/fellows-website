@@ -12,16 +12,16 @@ footer_button_text: Join us
 footer_button_path: /join
 footer_credits: Office of Innovation • Communications & Technology Management
 site_nav:
-  - label: Home
-    path: /
-  - label: About Us
-    path: /about/
-  - label: Civiqueso Posts
-    path: /posts/
-  - label: Events
-    path: /events/
-  - label: Join Us
-    path: /join/
+  # - label: Home
+  #   path: /
+  # - label: About Us
+  #   path: /about/
+  # - label: Civiqueso Posts
+  #   path: /posts/
+  # - label: Events
+  #   path: /events/
+  # - label: Join Us
+  #   path: /join/
 social_icons:
   medium_path: https://medium.com/city-of-austin-design-technology-innovation
   medium_title: Read Medium Posts by @Civiqueso
