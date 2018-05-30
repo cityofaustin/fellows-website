@@ -29,40 +29,32 @@ layout: default
   </div>
 </section>
 
-{% include page-section--projects.html
-  section_headline=page.project_tiles_headline
-  section_lede=page.project_tiles_lede_markdown
-  section_theme="gray"
-  rows=1
-  button_text=page.project_tiles_button_text
-  button_path=page.project_tiles_button_path %}
+<section class="page-section center-xs">
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2">
+        <h2>{{ page.goals_section_headline }}</h2>
+      </div>
+    </div>
+    <div class="row center-xs">
+      <div class="col-xs-10">
+        <div class="row">
+          {% for goal in page.goals %}
+          <div class="col-sm-6">
+            <div class="goal-flag">
+              <span>{{ forloop.index }}</span>
+            </div>
+            <h3>{{ goal.title }}</h3>
+            <p>{{ goal.subtitle_markdown | markdownify }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-{% assign people = site.people | sort: "start_date" | reverse %}
-{% include page-section--people.html
-  section_headline=page.people_headline
-  section_lede=page.people_lede_markdown
-  people=people
-  rows=1
-  button_text=page.people_button_text
-  button_path=page.people_button_path %}
 
-
-{% assign events = site.events | sort_by: "list_until_date" %}
-{% include page-section--events.html
-  section_headline=page.events_headline
-  section_lede=page.events_lede_markdown
-  items=events
-  section_theme="gray"
-  rows=1
-  button_text=page.events_button_text
-  button_path=page.events_button_path %}
-
-{% include page-section--medium.html
-  section_headline=page.medium_headline
-  section_lede=page.medium_lede_markdown
-  rows=1
-  button_text=page.medium_button_text
-  button_path=page.medium_button_path %}
 
 {% assign press_mentions = site.press | sort_by: "date" | reverse %}
 {% include page-section--press.html

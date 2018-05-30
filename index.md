@@ -9,37 +9,32 @@ image: /assets/img/home.jpg
 permalink: /index.html
 
 secondary_headline: Changing up Local Government
-secondary_lede_markdown: The City of Austin's Design, Technology, and Innovation Fellows program provides an opportunity for Austin’s passionate and civic-minded designers and developers to bring the principles, values, and practices of the technology sector into government.
-secondary_paragraph_markdown: Inspired by the success of programs at the [Consumer Financial Protection Bureau](https://cfpb.github.io/), [18F](https://18f.gsa.gov/), [Code for America](https://www.codeforamerica.org/), and the [U.S. Digital Service](https://www.usds.gov/), we partner with departments throughout the city to tackle some of their biggest challenges.
+secondary_lede_markdown: The City of Austin's Design, Technology, and Innovation Fellows program was launched in May 2016 to provide an opportunity for Austin’s passionate and civic-minded designers and developers to bring the principles, values, and practices of the technology sector into government.
+secondary_paragraph_markdown: After two years, 35 hires, and projects involving staff from dozens of departments across the City, our Fellows program evolved into more permanent and sustainable parts of the City of Austin as the [Office of Design & Delivery](http://odd.austintexas.io).
 secondary_section_buttons:
   - button_text: Learn more
-    button_path: /about/
-  - button_text: See open positions
-    button_path: /join/
+    button_path: http://odd.austintexas.io
 
 
-project_tiles_headline: Keep Up-to-Date with Our Projects
-project_tiles_lede_markdown: A few of our current partner projects with City departments.
-project_tiles_button_text: See all projects
-project_tiles_button_path: 'http://projects.austintexas.io/'
 
-people_headline: By the People, for the People
-people_lede_markdown: 'Government is not an abstract institution or a concept. Our government is us. Meet a few of the newest Design, Technology, & Innovation Fellows who have signed on for tours of duty:'
-people_button_text: Meet the team
-people_button_path: /about/
+    goals:
+      - title: Work directly with departments to deliver the best possible services.
+        subtitle_markdown: Our fellows work directly with city staff on teams that are empowered to learn, iterate, and deliver.
+      - title: Introduce and refine practices for user-centered design.
+        subtitle_markdown: We demonstrate and share how to bring research, prototyping, and testing into the delivery of all city services.
+      - title: Introduce and refine practices for iterative, open-source development.
+        subtitle_markdown: We demonstrate and share how to build modular, sustainable software that responds to changing needs.
+      - title: Establish a creative culture that inspires more people to join the city.
+        subtitle_markdown: We challenge ourselves to create an environment where we can do the best work of our careers.
 
-events_headline: Where We'll Be
-events_lede_markdown: 'Catch up with us at some local civic tech events.'
-events_button_text: See what's coming
-events_button_path: '/events/'
 
-medium_headline: Follow Us on Medium
-medium_lede_markdown: 'Civiqueso is our Medium publication—stories of design, technology, and innovation in the civic melting pot of Austin, Texas.'
-medium_button_text: See recent posts
-medium_button_path: /posts/
+    goals_section_headline: Our Goals
 
-press_mentions_headline: What People are Saying about Us
-press_mentions_lede_markdown: 'Press and interviews about the program and projects.'
+
+
+
+press_mentions_headline: Press
+press_mentions_lede_markdown: 'Press and interviews about the program and projects'
 press_mentions_button_text: Read all
 press_mentions_button_path: '/press/'
 ---
