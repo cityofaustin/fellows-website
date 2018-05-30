@@ -3,7 +3,7 @@ title: About us
 layout: about
 
 lede_markdown: 'We launched our Design, Technology, and Innovation Fellows program in June 2016 as an opportunity for Austin’s passionate and civic-minded designers and developers to bring the principles, values, and practices of the technology sector into government.
-In May 2018, our program became a more permanent and sustainable part of the City of Austin as the Office of Design and Delivery'
+In May 2018, our program became a more permanent and sustainable part of the City of Austin as the [Office of Design and Delivery](http://odd.austintexas.io).'
 
 goals:
   - title: Work directly with departments to deliver the best possible services.
