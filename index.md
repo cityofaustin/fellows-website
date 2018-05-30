@@ -10,7 +10,7 @@ permalink: /index.html
 
 secondary_headline: Changing up Local Government
 secondary_lede_markdown: The City of Austin's Design, Technology, and Innovation Fellows program was launched in May 2016 to provide an opportunity for Austin’s passionate and civic-minded designers and developers to bring the principles, values, and practices of the technology sector into government.
-secondary_paragraph_markdown: After two years, 35 hires, and projects involving staff from dozens of departments across the City, our Fellows program evolved into more permanent and sustainable parts of the City of Austin as the [Office of Design & Delivery](http://odd.austintexas.io).
+secondary_paragraph_markdown: After two years, 35 hires, and projects involving dozens of departments across the City, our Fellows program became a more permanent and sustainable part of the City of Austin as the new [Office of Design & Delivery](http://odd.austintexas.io).
 secondary_section_buttons:
   - button_text: Learn more
     button_path: http://odd.austintexas.io
