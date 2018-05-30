@@ -11,9 +11,7 @@ layout: default
         </div>
         <div class="row">
           <div class="col-lg lede">{{ page.secondary_lede_markdown | markdownify | trim }}</div>
-        </div>
-        <div class="row center-xs">
-          <div class="col-xs-12 col-lg-8">{{ page.secondary_paragraph_markdown | markdownify | trim }}</div>
+          <h2>{{ page.secondary_paragraph_markdown | markdownify | trim }}</h2>
         </div>
         {% if page.secondary_section_buttons %}
         <div class="row">
